@@ -1,0 +1,6 @@
+#i cant open the file so i ask my friend, he send me this code to make virtual domain name and then its work
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php
